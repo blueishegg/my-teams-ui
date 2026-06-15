@@ -31,7 +31,7 @@ const participants: Participant[] = [
   },
   {
     name: "Ben",
-    profile: "Lima",
+    profile: "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/ben-manu.jpeg",
     teams: [
       "Brazil",
       "Colombia",
@@ -56,7 +56,7 @@ const participants: Participant[] = [
   },
   {
     name: "Mum",
-    profile: "Guayaquil",
+    profile: "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/mum-gamified.png",
     teams: ["France", "Croatia", "Ecuador", "Norway", "Scotland", "Curacao"],
   },
   {
@@ -66,7 +66,8 @@ const participants: Participant[] = [
   },
   {
     name: "Leonie",
-    profile: "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/leonie-gamified.png",
+    profile:
+      "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/leonie-gamified.png",
     teams: ["Spain", "Senegal", "Japan", "Sweden", "Tunisia", "Ghana"],
   },
 ];
