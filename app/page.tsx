@@ -9,13 +9,27 @@ const participants: Participant[] = [
     name: "Israel",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/israel-gamified.png",
-    teams: ["Portugal", "Belgium", "Algeria OUT", "Iran OUT", "New Zealand OUT", "Iraq OUT"],
+    teams: [
+      "Portugal",
+      "Belgium",
+      "Algeria OUT",
+      "Iran OUT",
+      "New Zealand OUT",
+      "Iraq OUT",
+    ],
   },
   {
     name: "Cris",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/cris-gamified.png",
-    teams: ["England", "Mexico", "USA", "South Korea OUT", "DR Congo OUT", "Haiti OUT"],
+    teams: [
+      "England",
+      "Mexico",
+      "USA",
+      "South Korea OUT",
+      "DR Congo OUT",
+      "Haiti OUT",
+    ],
   },
   {
     name: "Marcy",
@@ -59,18 +73,39 @@ const participants: Participant[] = [
     name: "Mum",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/mum-gamified.png",
-    teams: ["France", "Croatia OUT", "Ecuador OUT", "Norway", "Scotland OUT", "Curacao OUT"],
+    teams: [
+      "France",
+      "Croatia OUT",
+      "Ecuador OUT",
+      "Norway",
+      "Scotland OUT",
+      "Curacao OUT",
+    ],
   },
   {
     name: "Dad",
     profile: "Santiago",
-    teams: ["Morocco", "Uruguay OUT", "Switzerland", "Egypt", "Qatar OUT", "Jordan OUT"],
+    teams: [
+      "Morocco",
+      "Uruguay OUT",
+      "Switzerland",
+      "Egypt",
+      "Qatar OUT",
+      "Jordan OUT",
+    ],
   },
   {
     name: "Leonie",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/leonie-gamified.png",
-    teams: ["Spain", "Senegal OUT", "Japan OUT", "Sweden OUT", "Tunisia OUT", "Ghana OUT"],
+    teams: [
+      "Spain",
+      "Senegal OUT",
+      "Japan OUT",
+      "Sweden OUT",
+      "Tunisia OUT",
+      "Ghana OUT",
+    ],
   },
 ];
 
@@ -120,7 +155,11 @@ export default function Home() {
                       {leftColumn.map((team) => (
                         <li
                           key={team}
-                          className="rounded-lg bg-accent px-3 py-2 text-sm font-semibold text-foreground"
+                          className={`rounded-lg px-3 py-2 text-sm font-semibold ${
+                            team.includes("OUT")
+                              ? "bg-secondary text-text-light"
+                              : "bg-accent text-foreground"
+                          }`}
                         >
                           {team}
                         </li>
@@ -130,7 +169,11 @@ export default function Home() {
                       {rightColumn.map((team) => (
                         <li
                           key={team}
-                          className="rounded-lg bg-secondary px-3 py-2 text-sm font-semibold text-text-light"
+                          className={`rounded-lg px-3 py-2 text-sm font-semibold ${
+                            team.includes("OUT")
+                              ? "bg-secondary text-text-light"
+                              : "bg-accent text-foreground"
+                          }`}
                         >
                           {team}
                         </li>
