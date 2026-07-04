@@ -9,36 +9,37 @@ const participants: Participant[] = [
     name: "Israel",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/israel-gamified.png",
-    teams: ["Portugal", "Belgium", "Algeria", "Iran", "New Zealand", "Iraq"],
+    teams: ["Portugal", "Belgium", "Algeria OUT", "Iran OUT", "New Zealand OUT", "Iraq OUT"],
   },
   {
     name: "Cris",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/cris-gamified.png",
-    teams: ["England", "Mexico", "USA", "South Korea", "DR Congo", "Haiti"],
+    teams: ["England", "Mexico", "USA", "South Korea OUT", "DR Congo OUT", "Haiti OUT"],
   },
   {
     name: "Marcy",
     profile: "Bogota",
     teams: [
       "Argentina",
-      "Germany",
-      "Ivory Coast",
-      "South Africa",
-      "Australia",
-      "Saudi Arabia",
+      "Germany OUT",
+      "Ivory Coast OUT",
+      "South Africa OUT",
+      "Australia OUT",
+      "Saudi Arabia OUT",
     ],
   },
   {
     name: "Ben",
-    profile: "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/ben-manu.jpeg",
+    profile:
+      "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/ben-manu.jpeg",
     teams: [
       "Brazil",
       "Colombia",
-      "Austria",
-      "Panama",
+      "Austria OUT",
+      "Panama OUT",
       "Paraguay",
-      "Cape Verde",
+      "Cape Verde OUT",
     ],
   },
   {
@@ -46,29 +47,30 @@ const participants: Participant[] = [
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/sandrine-gamified.png",
     teams: [
-      "Netherlands",
-      "Turkey",
+      "Netherlands OUT",
+      "Turkey OUT",
       "Canada",
-      "Czechia",
-      "Uzbekistan",
-      "Bosnia and Herzegovina",
+      "Czechia OUT",
+      "Uzbekistan OUT",
+      "Bosnia and Herzegovina OUT",
     ],
   },
   {
     name: "Mum",
-    profile: "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/mum-gamified.png",
-    teams: ["France", "Croatia", "Ecuador", "Norway", "Scotland", "Curacao"],
+    profile:
+      "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/mum-gamified.png",
+    teams: ["France", "Croatia OUT", "Ecuador OUT", "Norway", "Scotland OUT", "Curacao OUT"],
   },
   {
     name: "Dad",
     profile: "Santiago",
-    teams: ["Morocco", "Uruguay", "Switzerland", "Egypt", "Qatar", "Jordan"],
+    teams: ["Morocco", "Uruguay OUT", "Switzerland", "Egypt", "Qatar OUT", "Jordan OUT"],
   },
   {
     name: "Leonie",
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/leonie-gamified.png",
-    teams: ["Spain", "Senegal", "Japan", "Sweden", "Tunisia", "Ghana"],
+    teams: ["Spain", "Senegal OUT", "Japan OUT", "Sweden OUT", "Tunisia OUT", "Ghana OUT"],
   },
 ];
 
