@@ -52,7 +52,7 @@ const participants: Participant[] = [
       "Colombia",
       "Austria OUT",
       "Panama OUT",
-      "Paraguay",
+      "Paraguay OUT",
       "Cape Verde OUT",
     ],
   },
@@ -63,7 +63,7 @@ const participants: Participant[] = [
     teams: [
       "Netherlands OUT",
       "Turkey OUT",
-      "Canada",
+      "Canada OUT",
       "Czechia OUT",
       "Uzbekistan OUT",
       "Bosnia and Herzegovina OUT",
