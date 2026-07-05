@@ -84,7 +84,7 @@ const participants: Participant[] = [
   },
   {
     name: "Dad",
-    profile: "Santiago",
+    profile: "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/dad_gamified.png",
     teams: [
       "Morocco",
       "Uruguay OUT",
