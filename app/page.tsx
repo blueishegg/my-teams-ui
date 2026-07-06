@@ -24,7 +24,7 @@ const participants: Participant[] = [
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/cris-gamified.png",
     teams: [
       "England",
-      "Mexico",
+      "Mexico OUT",
       "USA",
       "South Korea OUT",
       "DR Congo OUT",
@@ -48,7 +48,7 @@ const participants: Participant[] = [
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/ben-manu.jpeg",
     teams: [
-      "Brazil",
+      "Brazil OUT",
       "Colombia",
       "Austria OUT",
       "Panama OUT",
