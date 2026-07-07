@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "My World Cup Teams",
     description: "See what teams remain in the FIFA World Cup sweepstake",
-    images: [{ url: "/pixel-family.png", width: 1200, height: 630 }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
 };
 
