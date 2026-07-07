@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "My World Cup Teams",
   description: "See what teams remain in the FIFA World Cup sweepstake",
+  openGraph: {
+    title: "My World Cup Teams",
+    description: "See what teams remain in the FIFA World Cup sweepstake",
+    images: [{ url: "/pixel-family.png", width: 1200, height: 630 }],
+  },
 };
 
 export default function RootLayout({
