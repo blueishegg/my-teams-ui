@@ -10,7 +10,7 @@ const participants: Participant[] = [
     profile:
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/israel-gamified.png",
     teams: [
-      "Portugal",
+      "Portugal OUT",
       "Belgium",
       "Algeria OUT",
       "Iran OUT",
@@ -25,7 +25,7 @@ const participants: Participant[] = [
     teams: [
       "England",
       "Mexico OUT",
-      "USA",
+      "USA OUT",
       "South Korea OUT",
       "DR Congo OUT",
       "Haiti OUT",
