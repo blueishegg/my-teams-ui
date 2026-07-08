@@ -49,7 +49,7 @@ const participants: Participant[] = [
       "https://demo-bucket-molly.s3.eu-west-2.amazonaws.com/ben-manu.jpeg",
     teams: [
       "Brazil OUT",
-      "Colombia",
+      "Colombia OUT",
       "Austria OUT",
       "Panama OUT",
       "Paraguay OUT",
@@ -89,7 +89,7 @@ const participants: Participant[] = [
       "Morocco",
       "Uruguay OUT",
       "Switzerland",
-      "Egypt",
+      "Egypt OUT",
       "Qatar OUT",
       "Jordan OUT",
     ],
